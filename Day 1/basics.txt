@@ -1,0 +1,3 @@
+Bootstrap - CSS Framework
+Prerequiries - HTML, CSS
+Aim/Reason - Responsive websites

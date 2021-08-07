@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Intro</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--Layouting-->
+
+    <!--col - xs
+    col-sm - small
+    col-md 
+    col-lg 
+    col-xl-->
+
+    <div class="container-fluid my-container"> 
+        <div class="row row-1 justify-content-between align-items-center">
+            <div class="block 1 col-3">
+                Rows must be placed within a .container (fixed-width) or .container-fluid (full-width) for proper alignment and padding.
+            </div>
+
+            <div class="block 2 col-3">
+                Use rows to create horizontal groups of columns.
+            </div>
+
+            <div class="block 3 col-3">
+                Content should be placed within columns, and only columns may be immediate children of rows.
+            </div>
+
+            <div class="block 4 col-3">
+                Predefined grid classes like .row and .col-xs-4 are available for quickly making grid layouts. Less mixins can also be used for more semantic layouts.
+            </div>
+        </div>
+
+        <div class="row row-1 justify-content-between align-items-center">
+            <div class="block 1 col-4">
+                Columns create gutters (gaps between column content) via padding. That padding is offset in rows for the first and last column via negative margin on .rows.
+            </div>
+
+            <div class="block 2 col-4">
+                The negative margin is why the examples below are outdented. It's so that content within grid columns is lined up with non-grid content.
+            </div>
+
+            <div class="block 3 col-4">
+                Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three .col-xs-4.
+            </div>
+        </div>
+
+        <div class="row row-1 justify-content-between align-items-center">
+            <div class="block 1 col-6">
+                To nest your content with the default grid, add a new .row and set of .col-sm-* columns within an existing .col-sm-* column. 
+            </div>
+
+            <div class="block 2 col-6">
+                Nested rows should include a set of columns that add up to 12 or fewer (it is not required that you use all 12 available columns).
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>
