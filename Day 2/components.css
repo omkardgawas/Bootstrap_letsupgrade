@@ -1,0 +1,18 @@
+.input-container{
+    padding: 10px 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.label{
+    padding-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card{
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.table{
+    font-family: Arial, Helvetica, sans-serif; 
+}
